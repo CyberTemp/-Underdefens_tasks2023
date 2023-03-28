@@ -1,0 +1,53 @@
+ 19:27:50 up  8:33,  1 user,  load average: 0,40, 0,67, 1,22
+oleksandr :0           2023-03-28 10:54 (:0)
+oleksandr :0           :0               Tue Mar 28 10:54   still logged in
+reboot   system boot  5.15.0-67-generic Tue Mar 28 10:54   still running
+oleksandr :0           :0               Mon Mar 27 12:52 - down   (11:24)
+reboot   system boot  5.15.0-67-generic Mon Mar 27 12:52 - 00:17  (11:24)
+oleksandr :0           :0               Mon Mar 27 11:48 - down   (01:03)
+reboot   system boot  5.15.0-67-generic Mon Mar 27 11:47 - 12:51  (01:04)
+
+wtmp begins Mon Mar 27 11:47:58 2023
+top - 19:27:50 up  8:33,  1 user,  load average: 0,53, 0,69, 1,22
+Tasks: 255 total,   1 running, 254 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 13,0 us,  7,2 sy,  0,0 ni, 79,7 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7636,3 total,   1521,2 free,   2832,1 used,   3283,1 buff/cache
+MiB Swap:   2048,0 total,   1341,0 free,    707,0 used.   3816,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  26229 oleksan+  20   0 4331548 843532 169316 S   6,2  10,8  83:01.42 zoom
+  34948 oleksan+  20   0 1131,0g 372264 126308 S   0,0   4,8   1:24.92 chrome
+   3278 oleksan+  20   0   33,2g 357692 214564 S   0,0   4,6  20:13.65 chrome
+  35784 oleksan+  20   0 2271496 339224 141876 S   0,0   4,3   0:36.00 telegra+
+  38121 oleksan+  20   0 1133,0g 337640 151792 S   0,0   4,3   2:06.93 chrome
+  36843 oleksan+  20   0 1130,9g 205008 114264 S   0,0   2,6   0:52.40 chrome
+   1641 oleksan+  20   0 4315036 187196  56780 S   6,2   2,4  43:38.63 gnome-s+
+  36912 oleksan+  20   0 1132,9g 186524 117832 S   0,0   2,4   4:19.16 chrome
+   1909 oleksan+  20   0 1239316 171972  13056 S   0,0   2,2   0:17.60 snap-st+
+  20024 oleksan+  20   0 1130,9g 163728 112068 S   0,0   2,1   0:36.22 chrome
+COMMAND     PID      USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+chrome     3278 oleksandr  134u  IPv4 110194      0t0  UDP 224.0.0.251:5353 
+chrome     3323 oleksandr   30u  IPv4 104937      0t0  TCP 192.168.0.157:33350->142.251.1.188:5228 (ESTABLISHED)
+chrome     3323 oleksandr   34u  IPv4 296581      0t0  UDP 192.168.0.157:48529->142.250.180.195:443 
+chrome     3323 oleksandr   37u  IPv4 297476      0t0  UDP 192.168.0.157:47663->172.217.16.3:443 
+chrome     3323 oleksandr   40u  IPv4 296583      0t0  UDP 192.168.0.157:55774->142.250.203.138:443 
+chrome     3323 oleksandr   47u  IPv4 292600      0t0  TCP 192.168.0.157:47140->35.201.66.137:443 (ESTABLISHED)
+chrome     3323 oleksandr   52u  IPv4 370473      0t0  UDP 192.168.0.157:38556->142.250.203.138:443 
+chrome     3323 oleksandr   54u  IPv4 296293      0t0  TCP 192.168.0.157:36840->185.199.110.154:443 (ESTABLISHED)
+chrome     3323 oleksandr   56u  IPv4 379436      0t0  TCP 192.168.0.157:45986->185.199.110.154:443 (ESTABLISHED)
+chrome     3323 oleksandr   58u  IPv4 379437      0t0  TCP 192.168.0.157:52324->185.199.111.133:443 (ESTABLISHED)
+chrome     3323 oleksandr   68u  IPv4 379971      0t0  TCP 192.168.0.157:38054->140.82.112.26:443 (ESTABLISHED)
+chrome     3323 oleksandr   84u  IPv4 236768      0t0  TCP 192.168.0.157:38608->18.197.249.189:443 (ESTABLISHED)
+chrome     3323 oleksandr  102u  IPv4  64718      0t0  UDP 224.0.0.251:5353 
+zoom      26229 oleksandr  100u  IPv4 261509      0t0  TCP 192.168.0.157:43624->170.114.52.4:443 (CLOSE_WAIT)
+zoom      26229 oleksandr  119u  IPv4 159965      0t0  TCP 192.168.0.157:41894->170.114.14.75:443 (ESTABLISHED)
+zoom      26229 oleksandr  135u  IPv4 159968      0t0  TCP 192.168.0.157:60206->170.114.15.204:443 (ESTABLISHED)
+zoom      26229 oleksandr  140u  IPv4 261619      0t0  TCP 192.168.0.157:47592->170.114.15.105:443 (CLOSE_WAIT)
+telegram- 35784 oleksandr   22u  IPv4 294594      0t0  TCP 192.168.0.157:41898->149.154.167.41:443 (ESTABLISHED)
+telegram- 35784 oleksandr   49u  IPv4 256098      0t0  TCP 192.168.0.157:42288->149.154.167.41:443 (ESTABLISHED)
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0 723968 1557436  72600 3289264    4   13    64   105  180   81 32 12 56  0  0
+              total        used        free      shared  buff/cache   available
+Mem:        7819584     2900284     1557436      707448     3361864     3907740
+Swap:       2097148      723968     1373180
